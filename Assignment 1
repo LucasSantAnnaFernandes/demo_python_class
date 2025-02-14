@@ -1,0 +1,104 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOYqLURJageqcDQa3wa0qdy",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/LucasSantAnnaFernandes/demo_python_class/blob/main/Assignment%201\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "1) Get two integer numbers from the user and return their sum, multiplication, and division"
+      ],
+      "metadata": {
+        "id": "NtL-H87ZtS0J"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ebbTPWf_tSKY",
+        "outputId": "9f21bc71-3c69-4217-bfb1-455686b6f11d"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter the first integer: 100\n",
+            "Enter the second integer: 12\n",
+            "112 1200 8.333333333333334\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Get two integer numbers from the user\n",
+        "num1 = int(input(\"Enter the first integer: \"))\n",
+        "num2 = int(input(\"Enter the second integer: \"))\n",
+        "\n",
+        "# Calculate sum, multiplication, and division\n",
+        "sum_result = num1 + num2\n",
+        "multiplication_result = num1 * num2\n",
+        "division_result = num1 / num2\n",
+        "\n",
+        "\n",
+        "print(sum_result, multiplication_result,division_result)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "2) Write Python code to let a user input a number of days, calculate the number of seconds, and print the result to the screen.\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "71tPZ_bbtT56"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "days = int(input(\"Enter the number of days: \"))\n",
+        "\n",
+        "\n",
+        "seconds = days * 24 * 60 * 60\n",
+        "\n",
+        "\n",
+        "print(f\"The number of seconds in {days} day(s) is {seconds}.\")\n"
+      ],
+      "metadata": {
+        "id": "cayxW4vStYAh"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
